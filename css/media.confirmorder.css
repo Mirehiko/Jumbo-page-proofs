@@ -1,0 +1,16 @@
+@media screen and (min-width: 0) {
+	.blank-container {
+	    padding: 55px 7px 0;
+	}
+	.fix-container:last-child {
+	    margin-bottom: 55px;
+	}
+}
+@media screen and (min-width: 960px) {
+	.blank-container {
+	    padding: 55px 125px 85px;
+	}
+	.fix-container:last-child {
+	    margin-bottom: 80px;
+	}
+}

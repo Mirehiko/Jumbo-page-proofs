@@ -1,0 +1,102 @@
+footer {
+	/*background: #000;*/
+	font-family: Verdana;
+	font-weight: normal;
+	padding: 0 7px;
+	width: auto;
+	background: #000;
+	position: relative
+}
+footer .wrapper {
+	background: #000;
+	width: 100%;
+	height: auto;
+	box-sizing: content-box;
+	max-width: 1920px;
+	margin: 0 auto;
+
+	/*position: absolute;
+	width: 100%;
+	padding: 0;
+	bottom: 0;
+	margin: 0 -7px;*/
+}
+.f_title {
+	text-transform: uppercase;
+	color: #ffa800;
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 8px;
+	/**/
+	font-size: 15px;
+}
+.f_line {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.subblock:last-child {
+	text-align: right;
+}
+.subblock {
+	padding-top: 40px;
+	padding-bottom: 35px;
+	width: 100%;
+}
+.subblock li a {
+	color: #fff;
+	font-size: 15px;
+	font-weight: normal;
+	/**/
+}
+.subblock li {
+	margin-bottom: 5px;
+	padding: 2px 0;
+}
+.for_delivers {
+	margin-top: 40px;
+}
+.subscribe {
+	text-align: center;
+}
+.subscribe p {
+    color: #ffa800;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    /**/
+    font-size: 15px;
+}
+.btn-circle {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.btn-circle:hover { color: #ffa800; border-color: #ffa800; }
+.btn-circle i {
+	vertical-align: middle;
+	padding: 0;
+	line-height: 32px;
+}
+.socials {
+	margin-top: 20px;
+}
+
+.fwrap {
+	position: inherit;
+	width: 100%;
+	height: 100%;
+	display: table;
+	vertical-align: middle;
+}
+.fcenter {
+	margin-top: 54px;
+	vertical-align: middle;
+}

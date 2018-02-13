@@ -1,0 +1,35 @@
+h1.page_title {
+	text-align: left;
+}
+h3 {
+	margin-bottom: 20px;
+}
+.fix-container {
+	font-size: 16px;
+	line-height: 24px;
+}
+.fix-container p {
+	margin-bottom: 25px;
+}
+.btn {
+	text-transform: none;
+}
+form.form-control {
+	margin-bottom: 50px;
+	display: block;
+}
+.wrapper {
+	max-width: 740px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+h1.page_title>span.parent {
+	text-decoration: underline;
+	font-weight: normal;
+}
+h1.page_title>span.angle {
+	font-weight: bold;
+}
+h1.page_title>span.active {
+	text-transform: none;
+}

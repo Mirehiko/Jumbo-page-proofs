@@ -1,0 +1,40 @@
+.fix-container {
+	padding: 0 8px;
+}
+h1.page_title {
+	text-align: left;
+}
+h3.h3 {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+p.text {
+	line-height: 24px;
+}
+p.text.email {
+	font-size: 16px;
+
+}
+p.text.email a.a {
+	font-size: 14px;
+}
+p.text.phone {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px 0;
+}
+.socials {
+	margin: 0 -5px;
+}
+.socials.dark .btn-circle {
+	margin: 0 5px;
+}
+#write {
+	margin-top: 15px;
+}
+#map {
+	margin-top: 50px;
+}
+h1.page_title span.logo {
+	font-weight: normal;
+}

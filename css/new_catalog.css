@@ -1,0 +1,32 @@
+#fixed-parent-1 {
+  width: 290px;
+  float: left;
+}
+#relative-block-1 {
+  margin-left: 300px;
+}
+
+.sort-block {
+  margin: 10px 0;
+}
+
+#sort-block li a {
+  color: #222;
+}
+#sort-block li.active a {
+  text-decoration: underline;
+  color: orange;
+}
+#sort-block .miko-devider {
+  padding: 0 5px;
+}
+.sort-block *,
+.sort-block #sort-block li {
+  font-size: 13px;
+}
+.sort-block .sort-title,
+.sort-block ul {
+  display: inline-block;
+  vertical-align: middle;
+  color: #888;
+}

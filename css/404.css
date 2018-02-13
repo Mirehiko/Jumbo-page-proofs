@@ -1,0 +1,21 @@
+.notfound {
+	text-align: center;
+	margin-top: 165px;
+	margin-bottom: 210px;
+	/*font-family: Tahoma;*/
+}
+.notfound h1 {
+	font-size: 80px;
+	margin-bottom: 15px;
+}
+.notfound h2 {
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+.notfound .a-decoration-none {
+	font-size: 16px;
+	color: #588db6;
+}
+.notfound li {
+	padding: 12px 0;
+}

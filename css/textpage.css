@@ -1,0 +1,18 @@
+.wrap_content .pageHeader {
+	padding-top: 80px;
+}
+h1.page_title {
+	padding-bottom: 0;
+	text-align: left;
+}
+div.textpage h1,
+div.textpage h2, 
+div.textpage h3, 
+div.textpage h4, 
+div.textpage h5, 
+div.textpage h6  {
+	margin-bottom: 20px;
+}
+div.textpage {
+	width: auto;
+}

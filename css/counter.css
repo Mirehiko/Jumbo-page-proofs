@@ -1,0 +1,81 @@
+.counter-group {
+	font-size: 0;
+	position: relative;
+}
+.counter-group button.c-btn,
+.counter-group input.count,
+.counter-group .inp {
+	outline: none;
+	background: none;
+	border: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+.counter-group button.c-btn {
+	text-align: center;
+	cursor: pointer;
+}
+.counter-group input.count {
+	position: absolute;
+	border: none !important;
+	z-index: 1;
+}
+.counter-group .inp {
+	margin-left: -1px;
+	margin-right: -1px;
+	overflow: hidden;
+	position: relative;
+}
+/*Custom*/
+.counter-group button.c-btn,
+.counter-group input.count,
+.counter-group .inp {
+	border: 1px solid #c4c4c4;
+	height: 38px;
+	width: 38px;
+	line-height: 38px;
+	font-size: 15px;
+	background: #fff;
+}
+.counter-group .inp {
+	height: 36px;
+}
+.counter-group input.count {
+	width: 52px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+.counter-group button.c-btn {
+	background: #fff;
+	font-size: 28px;
+	color: #797878;
+}
+.counter-group button.c-btn:hover {
+	background: #ffb400;
+	color: #fff;
+	border-color: #ffb400;
+	z-index: 2;
+}
+
+.counter-group.single {
+	height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-color: #ccc;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.counter-group.single input.single {
+	width: 45px;
+	height: 30px;
+	border: none;
+	outline: 0;
+	top: 0;
+	right: 0;
+}
+
+

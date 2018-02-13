@@ -1,0 +1,48 @@
+.miko-wrapper {
+  position: relative;
+}
+.miko-inline-container {
+  font-size: 0;
+}
+.miko-inline-item {
+  font-size: initial;
+  display: inline-block;
+}
+
+
+.main-ctt>.miko-inline-item {
+  vertical-align: top;
+}
+#fixed-container-1 {
+  position: relative;
+}
+#fixed-parent-1 .miko-wrapper {
+  height: 100%;
+}
+#fixed-parent-1 {
+  width: 260px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#relative-block-1 {
+  display: block;
+  margin-left: 270px;
+}
+#relative-block-1 .miko-wrapper {
+  margin: 0 -8px;
+}
+
+
+
+@media screen and (min-width:0) {
+  #relative-block-1 {
+    display: block;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width:768px) {
+  #relative-block-1 {
+    margin-left: 270px;
+  }
+}

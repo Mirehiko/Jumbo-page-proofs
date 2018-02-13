@@ -1,0 +1,10 @@
+@media screen and (min-width: 0) {
+	form.form-control .btn {
+	    width: 100%;
+	}
+}
+@media screen and (min-width: 640px) {
+	form.form-control .btn {
+	    width: 233px;
+	}
+}

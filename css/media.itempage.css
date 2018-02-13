@@ -1,0 +1,204 @@
+/*Страница товара*/
+	@media screen and (min-width: 0) {
+		.iw_box {
+			width: 100%;
+		}
+		.small_title { display: block; }
+		.big_title { display: none; }
+
+		.full_desc .desc_path { padding: 0 8px; }
+		.like_items { 
+			margin: 0;
+			padding: 0;
+		}
+		.img_box .wrap {
+			margin: 0;
+			padding: 0 3px;
+		}
+
+		.img-array .img {
+			width: 100%;
+		}
+		.img-array .li {
+			width: 50%;
+			margin-bottom: 7px;
+		}
+		.shot_desc { text-align: center; }
+		.capacity { margin-top: 10px; }
+		.text, .share, .item-soc { text-align: left; }
+		.full_desc { margin-bottom: 30px; }
+
+		/*Slider*/
+			.main_img,
+			.img-array,
+			.big_slider,
+			.slider-nav {
+				display: none;
+			}
+			.small_slider { display: block; }
+			.prev-img {
+				width: 100%;
+			}
+			.slick-dots li button:before {
+				content: '■';
+				font-size: 18px;
+			}
+			.slick-dots {
+				bottom: 15px;
+			}
+		/**/
+		.shot_desc .wrap {
+			padding: 0 8px;
+		}
+		.full_desc .mobile-box {
+			height: 250px;
+			margin-bottom: 15px;
+		}
+		.full_desc .btn {
+			display: block;
+		}
+		.addToWishes .square_btn {
+			width: auto;
+			display: block;
+			padding: 0;
+			height: 42px;
+			vertical-align: middle;
+			line-height: 42px;
+			border: 1px dashed #929292;
+			color: #281b00;
+		}
+		.like_items {
+			display: none;
+		}
+		.like_items-mobile {
+			display: block;
+		}
+		.iw_box .square_btn {
+		    width: auto;
+		    background: #fff;
+		}
+		.iw_box button.square_btn {
+			width: 100%;
+			background: #929292;
+		}
+		.text, .iw_box.full_desc {
+		    /*background: #eeeeee;*/
+		    padding: 10px 15px;
+		    margin: 0 -15px;
+		}
+		.iw_box.full_desc {
+			margin: 0 -7px;
+			margin-top: -20px;
+			margin-bottom: 15px;
+			padding-top: 20px;
+			padding-bottom: 0;
+		}
+		div.text.support .p {
+	    padding: 0 8px;
+	    background: #eee;
+	    margin-bottom: 0;
+	    padding-bottom: 15px;
+	    text-align: justify;
+		}
+		div.desc_path.support2 {
+			padding: 0;
+		}
+		div.desc_path.support2 .p {
+	    padding: 0 8px;
+	    background: #eee;
+	    margin-bottom: 0;
+	    padding-bottom: 15px;
+	    text-align: justify;
+		}
+	}
+	@media screen and (min-width: 425px) {
+		.img-array .li {
+			width: 25%;
+			margin-bottom: 7px;
+		}
+		div.text.support .p {
+			padding: 0;
+		}
+	}
+	@media screen and (min-width: 475px) {
+		.img-array .li {
+			width: 25%;
+			margin-bottom: 7px;
+		}
+		.like_items .item {
+			width: 33.333333%;
+		}
+	}
+	@media screen and (min-width: 768px) {
+		.small_title { display: none; }
+		.big_title { display: block; }
+		
+		.iw_box {
+			width: 50%;
+		}
+		.img-array .li {
+			width: 25%;
+			margin-bottom: 7px;
+		}
+		.shot_desc { text-align: left; }
+		.like_items .item {
+			width: 50%;
+		}
+		/*Slider*/
+			.main_img,
+			.img-array {
+				display: none;
+			}
+			.big_slider .slick-slide img {
+				width: 100%;
+			}
+			.slider-nav { display: block }
+			.big_slider { display: block; }
+			.small_slider {
+				display: none;
+			}
+		/**/
+		.shot_desc .wrap {
+			padding: 0 8px;
+			padding-right: 0;
+		}
+		.full_desc .mobile-box {
+			height: auto;
+			margin-bottom: 0;
+		}
+		.full_desc .btn {
+			display: none;
+		}
+		.addToWishes .square_btn {
+			width: auto;
+			display: inline-block;
+			padding: 0;
+			height: 42px;
+			vertical-align: middle;
+			line-height: 42px;
+			border: none;
+			color: #281b00;
+		}
+		.like_items {
+			display: block;
+		}
+		.like_items-mobile {
+			display: none;
+		}
+		.iw_box .square_btn {
+		    width: 230px;
+		    background: transparent;
+		}
+		.iw_box button.square_btn {
+			width: 230px;
+		}
+		.text, .iw_box.full_desc {
+		    background: transparent;
+		    padding: 0;
+		    margin: 0;
+		}
+		div.desc_path.support2 {
+			padding: 0 8px;
+		}
+	}
+/**/

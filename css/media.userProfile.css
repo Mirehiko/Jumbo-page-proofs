@@ -1,0 +1,37 @@
+/*Профиль пользователя*/
+	@media screen and (min-width: 0) {
+		div.description {
+			border-top: 1px solid #ccc;
+			margin-left: 125px;
+			padding-right: 0;
+		}
+		div.actions-block {
+		    float: none;
+		    padding: 20px 0;
+		}
+		div.actions-block.hidden-sm {
+			display: none;
+		}
+		div.actions-block.hidden-over-md {
+			display: block;
+		}
+	}
+	@media screen and (min-width: 720px) {
+		div.description {
+			border-top: 1px solid #ccc;
+			margin-left: 125px;
+			padding-right: 255px;
+			float: none;
+		}
+		div.actions-block {
+		    float: right;
+		    padding: 20px 0;
+		}
+		div.actions-block.hidden-sm {
+			display: block;
+		}
+		div.actions-block.hidden-over-md {
+			display: none;
+		}
+	}
+/**/

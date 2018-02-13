@@ -1,0 +1,18 @@
+/*Текстовая страница*/
+	@media screen and (min-width: 0) {
+		div.textpage {
+			padding: 0 8px;
+		}
+		div.textpage .btn {
+			width: 100%;
+		}
+	}
+	@media screen and (min-width: 1024px) {
+		div.textpage {
+			padding: 0;
+		}
+		div.textpage .btn {
+			width: auto;
+		}
+	}
+/**/
