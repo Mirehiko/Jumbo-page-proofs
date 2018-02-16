@@ -29,7 +29,7 @@
   display: block;
   margin-left: 270px;
 }
-#relative-block-1 .miko-wrapper {
+#relative-block-1>.miko-wrapper {
   margin: 0 -8px;
 }
 
