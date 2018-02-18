@@ -1,0 +1,38 @@
+.homepage, .homepage>.miko-wrapper {
+	min-height: 100%;
+}
+.miko-slide_page {
+	height: 100%;
+	width: auto;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	font-size: 0;
+}
+.miko-slide_page.slide-1 {
+	background-image: url(../images/slides/hometechnic.png);
+}
+.miko-slide_page.slide-2 {
+	background-image: url(../images/slides/LED.jpg);
+}
+.miko-slide_page.slide-3 {
+	background-image: url(../images/slides/jewelry.jpg);
+}
+.miko-slide_page .list_row {
+	border-bottom: 1px solid #fff;
+}
+.miko-slide_page .list_row:last-child {
+	border-bottom: none;
+}
+.miko-slide_page .list_item {
+	background: #60ffda;
+	opacity: 0.7;
+	width: 20%;
+	height: 33.333333vh;
+	box-sizing: border-box;
+	border-right: 1px solid #fff;
+	display: inline-block;
+	font-size: initial;
+}
+.miko-slide_page .list_item:last-child {
+	border: none;
+}

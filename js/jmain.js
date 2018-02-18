@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	if ( $('div').is('#fixed-container-1') ){
+		
 	$('#fixed-container-1').onScrollBoxFixedV2(
 		block = {
 			fixedBlockParent : $('#fixed-parent-1'),
@@ -13,6 +15,7 @@ $(document).ready(function() {
 			marginBottom: ''
 		}
 	);
+	}
 
 	(function init() {
 		//Показать товары в корзине, если есть
