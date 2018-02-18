@@ -40,13 +40,20 @@
   box-sizing: border-box;
 }
 
-
+.pages-block {
+  margin: 0 0 30px 0;
+  font-size: 0;
+}
 .item_box {
   min-width: 200px;
   display: inline-block;
   padding: 0 5px;
   width: 250px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  font-size: initial;
 }
+.item_box:hover { border-color: #ccc; }
 .item_box .miko-wrapper {
   display: block;
   margin: 0;
@@ -58,7 +65,9 @@
   width: 100%;
   height: 100%;
   padding: 5px;
-  display: inline-block;
+  display: block;
+  max-width: 250px;
+  margin: 0 auto;
   white-space: nowrap;
   box-sizing: border-box;
 }
@@ -67,4 +76,60 @@
   font-size: 0;
   box-sizing: border-box;
   overflow: hidden;
+}
+.img-grid {
+  text-decoration: none; 
+}
+.item_box-title {
+  color: #999;
+  padding: 5px 0;
+}
+.item_box-price {
+  color: #f7a900;
+  font-weight: bold;
+}
+.item_box .item_box-actions {
+  margin-top: 5px;
+  color: #999;
+  height: 20px;
+}
+.item_box .item-actions {
+  float: right;
+  cursor: pointer;
+}
+.item_box .item_box-actions .item-action:hover {
+  color: orange;
+}
+.item_box .item_box-actions .item-action.active {
+  color: orange;
+}
+
+
+#fixed-container-1 {
+  /* width: 1250px; */
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+@media screen and (min-width: 960px) {
+  .item_box {
+    width: 33.333333%;
+  }
+
+}
+@media screen and (min-width: 1240px) {
+  #fixed-container-1 {
+    width: 1250px;
+  }
+  .item_box {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .item_box {
+    width: 20%;
+  }
+  #fixed-container-1 {
+    width: 1500px;
+  }
 }

@@ -34,7 +34,10 @@
   font-size: 8px;
 }
 
-
+.category,
+.category ul {
+  list-style-type: none;
+}
 .category li * {
   text-decoration: none;
 }
