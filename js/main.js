@@ -1,5 +1,6 @@
 var img_timer;
 
+//Image changer
 var img = $('.item_box .img-item'); 
 img.on('mouseover', function(e) {
 	var elem = $(e.target);
@@ -25,3 +26,9 @@ img.on('mouseleave', function(e) {
 	clearTimeout(img_timer);
 	e.target.src = $(e.target).attr('data-original');
 });
+//----------------------------------------------------------
+// $('#fullpage').on('scroll', function(e) {
+// 	e.preventDefault();
+// 	console.log('asd');
+// 	$('.miko-slide_page.active').find('.list_item').addClass('active');
+// });
