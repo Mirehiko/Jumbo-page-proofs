@@ -32,3 +32,12 @@ img.on('mouseleave', function(e) {
 // 	console.log('asd');
 // 	$('.miko-slide_page.active').find('.list_item').addClass('active');
 // });
+$('.psevdocheckbox').on('click', function(e) {
+	e.preventDefault();
+	$(this).toggleClass('selected');
+	$(this).find('.stateIcon .state').toggleClass('active');
+});
+$('.color-block>li').on('click', function(e) {
+	e.preventDefault();
+	$(this).toggleClass('selected');
+});

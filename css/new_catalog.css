@@ -107,6 +107,129 @@
 }
 
 
+.category,
+.category ul {
+  list-style-type: none;
+}
+.category li * {
+  text-decoration: none;
+}
+.category li:hover a:hover {
+  text-decoration: underline;
+}
+.category li.opened>a {
+  color: orange;
+}
+.category .cat-item>a {
+  text-transform: uppercase;
+}
+.category * {
+  color: #666;
+}
+.category li {
+  margin-bottom: 10px;
+}
+.category li a {
+  padding: 3px 0;
+}
+.category>li>a {
+  color: #222;
+}
+.category li.opened {
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 8px;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+.category ul {
+  margin-top: 8px;
+}
+.category .opened .opened ul {
+  margin: 5px 0 15px 20px;
+}
+.category li.opened+li {
+  padding-top: 15px;
+}
+.category li.opened:first-child {
+  border-top: 0;
+}
+.category {
+  margin-bottom: 50px;
+}
+.category:last-child {
+  margin: 0;
+}
+
+
+.selectorblock {
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style-type: none;
+}
+.selectorblock:last-child {
+  margin-bottom: 0;
+}
+
+.filter-block {
+  margin-bottom: 10px;
+  position: relative;
+}
+.filter-block.show::after {
+  content: '';
+  border-bottom: 1px solid #ddd;
+  width: 90%;
+  display: block;
+  margin-top: 5px;
+  box-sizing: border-box;
+  margin: 5px auto 0;
+}
+.filter-title {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #222;
+}
+.filter-block.show:last-child::after,
+.filter-block:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.selectorblock.color-block {
+  padding: 0 5px;
+}
+.color-block {
+  font-size: 0;
+}
+.color-block li {
+  display: block;
+  padding: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 3px solid #fff;
+}
+.color-block li .color-item {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: #ccc;
+  border: 1px solid #eee;
+}
+.color-block li:hover {
+  background: #ddd;
+}
+.color-block li.selected {
+  background: #939ce0;
+}
+.color-block li.selected .color-item {
+  border-color: #fff;
+}
+
 #fixed-container-1 {
   /* width: 1250px; */
   margin: 0 auto;
